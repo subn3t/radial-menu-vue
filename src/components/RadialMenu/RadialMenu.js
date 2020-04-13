@@ -224,7 +224,7 @@ export default {
         },
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        $_centerClick: function (event) {
+        $_centerClick: function () {
             if (this.openedMenu.length > 1) {
                 let childMenu = this.$_getCurrentMenu();
                 let parentMenu = this.openedMenu[this.openedMenu.length - 2];
